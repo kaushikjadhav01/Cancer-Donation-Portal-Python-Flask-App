@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("fonts/fontawesome-webfont.eot");
+    src: url("fonts/fontawesome-webfont.eot?#iefix") format("eot"), 
+    	 url("fonts/fontawesome-webfont.woff") format("woff"), 
+    	 url("fonts/fontawesome-webfont.ttf") format("truetype"), 
+    	 url("fonts/fontawesome-webfont.svg#FontAwesome") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jp-gui {
+	position: relative;
+    background: transparent;
+	overflow: hidden;
+	margin-top: 10px;
+    text-align: start;
+}
+
+.jp-jplayer, .jp-audio {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.jp-controls {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 16px;
+    font-family: "FontAwesome";
+}
+
+.jp-controls li {
+    display: inline;
+}
+
+.jp-controls a {
+    color: #f20000;
+    outline: none;
+    outline-offset: 0;
+
+}
+
+.jp-play,.jp-pause {
+    width: 15px;
+    height: 33px;
+    display: inline-block;
+    text-align: center;
+    line-height: 33px;
+}
+
+.jp-mute,.jp-unmute {
+    position: absolute;
+    right: 44px;
+    top: 0;
+    width: 20px;
+    height: 33px;
+    display: inline-block;
+    line-height: 33px;
+}
+
+.jp-mute {
+    text-align: left;
+}
+
+.jp-volume-bar {
+    position: absolute;
+    right: 0;
+    top: 14px;
+    width: 45px;
+    height: auto;
+    background-color: #383838;
+    overflow: hidden;
+}
+
+.jp-volume-bar-value {
+    background-color: #f20000;
+    height: 5px;
+}
+
+.jp-progress {
+    background-color: #383838;
+    overflow: hidden;
+    position: absolute;
+    right: 118px;
+    top: 14px;
+    width: calc(100% - 180px);
+}
+
+.jp-play-bar {
+    height: 5px;
+    background-color: #f20000;
+}
+
+.jp-time-holder {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    left: 20px;
+    top: 11px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+.jp-time-duration {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    right: 75px;
+    top: 11px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
