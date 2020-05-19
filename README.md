@@ -18,9 +18,9 @@ Flask App for Cancer Donation Portal using basic Python, SQLite3, HTML, CSS and 
 
 # How to Install and Use
 <ol>
-<li>Download and Install Python 3.7</li>
-<li>Go to command prompt or anaconda prompt. Change to directory of this repo and type pip install -r requirements.txt</li>
-<li>Run the app.py file</li>
+  <li>Download and Install <b>Python 3.7</b></li>
+<li>Go to command prompt or anaconda prompt. Change to directory of this repo and type <b>pip install -r requirements.txt</b></li>
+<li>Run the <b>app.py</b> file</li>
 <li>Open your web browser and check if you got the website running on your localhost (http://127.0.0.1:5000/)</li>
 </ol>
 
