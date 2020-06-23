@@ -24,4 +24,14 @@ Flask App for Cancer Donation Portal using basic Python, SQLite3, HTML, CSS and 
 <li>Open your web browser and check if you got the website running on your localhost (http://127.0.0.1:5000/)</li>
 </ol>
 
+# Authors
+## Kaushik Jadhav
+<ul>
+<li>Github:https://github.com/kaushikjadhav01</li>
+<li>Medium:https://medium.com/@kaushikjadhav01</li>
+<li>LinkedIn:https://www.linkedin.com/in/kaushikjadhav01/</li>
+<li>Portfolio:http://kaushikjadhav01.github.io/</li>
+</ul>
+
+
 
