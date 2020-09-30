@@ -69,26 +69,6 @@
     </nav>
 </div>
 
-<script>
-    "use strict";
-    // ===================== Menu Bar ======================
-     $(document).ready(function(){
-    var pathname = window.location.pathname;
-    var page = pathname.split(/[/ ]+/).pop();
-    var menuItems = $('#navbar-menu a');
-    menuItems.each(function(){
-        var mi = $(this);
-        var miHrefs = mi.attr("href");
-        var miParents = mi.parents('li');
-        if(page == miHrefs) {
-            miParents.addClass("active").siblings().removeClass('active');
-        }
-    });
-     });
-</script>
-
-
-
     <!--=============================== Banner ==========================-->
     <div class="banner" style="background-image: url('assets/images/pexels-photo-69096.jpg');background-repeat: no-repeat;background-attachment: fixed;
   background-size: cover;">
@@ -144,6 +124,20 @@
     $('.message a').click(function () {
         $('form.form-all').animate({height: "toggle", opacity: "toggle"}, "slow");
     });
+    // ===================== Menu Bar ======================
+     $(document).ready(function(){
+    var pathname = window.location.pathname;
+    var page = pathname.split(/[/ ]+/).pop();
+    var menuItems = $('#navbar-menu a');
+    menuItems.each(function(){
+        var mi = $(this);
+        var miHrefs = mi.attr("href");
+        var miParents = mi.parents('li');
+        if(page == miHrefs) {
+            miParents.addClass("active").siblings().removeClass('active');
+        }
+    });
+     });
 </script>
 
 </body>
